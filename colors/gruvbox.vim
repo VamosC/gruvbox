@@ -1030,12 +1030,14 @@ hi! link cStructure GruvboxOrange
 " Python: {{{
 
 hi! link pythonBuiltin GruvboxOrange
+hi! link pythonBuiltinType GruvboxOrange
 hi! link pythonBuiltinObj GruvboxOrange
 hi! link pythonBuiltinFunc GruvboxOrange
 hi! link pythonFunction GruvboxAqua
+hi! link pythonFunctionCall GruvboxBlue
 hi! link pythonDecorator GruvboxRed
-hi! link pythonInclude GruvboxBlue
-hi! link pythonImport GruvboxBlue
+hi! link pythonInclude GruvboxRed
+hi! link pythonImport GruvboxRed
 hi! link pythonRun GruvboxBlue
 hi! link pythonCoding GruvboxBlue
 hi! link pythonOperator GruvboxRed
@@ -1045,7 +1047,11 @@ hi! link pythonBoolean GruvboxPurple
 hi! link pythonDot GruvboxFg3
 hi! link pythonConditional GruvboxRed
 hi! link pythonRepeat GruvboxRed
-hi! link pythonDottedName GruvboxGreenBold
+hi! link pythonDottedName GruvboxBlue
+hi! link pythonString GruvboxGreen
+hi! link pythonClassVar GruvboxYellow
+hi! link pythonDocTest2 GruvboxBlue
+hi! link pythonDocTest GruvboxBlue
 
 " }}}
 " CSS: {{{
